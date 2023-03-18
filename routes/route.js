@@ -1,7 +1,7 @@
 const router = require("express").Router();
 
 const cloudinary = require("../utils/cloudinary");
-const Image = require("../models/image");
+const Image = require("../models/Image");
 
 //add conversation
 router.get("/", async (req, res) => {
